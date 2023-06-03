@@ -36,7 +36,7 @@ public class SchoolDaoImpl implements SchoolDao {
         // sorted by last name.
         // YOUR CODE STARTS HERE
 
-        String sql = "select fName, lName from javaschool.student order by lName;";
+        String sql = "select fName, lName from student order by lName;";
 
         // YOUR CODE ENDS HERE
 
